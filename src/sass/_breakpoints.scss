@@ -1,0 +1,29 @@
+@include at-breakpoint($first-break) /* 6 col @ 480 */
+{
+
+}
+
+@include at-breakpoint($second-break) /* 8 col @ 640 */
+{
+
+}
+
+@include at-breakpoint($third-break) /* 12  col @ 800 */
+{
+
+}
+
+@include at-breakpoint($fourth-break) /* 12  col @ 960 */
+{
+
+}
+
+@include at-breakpoint($fifth-break) /* 12  col @ 1120 */
+{
+
+}
+
+@include at-breakpoint($sixth-break) /* 12  col @ 1280 */
+{
+  
+}

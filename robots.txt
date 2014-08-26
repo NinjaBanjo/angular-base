@@ -1,0 +1,5 @@
+# robotstxt.org/
+
+User-agent: *
+Disallow: /
+#todo: remove disallow: / before moving to production

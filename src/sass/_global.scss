@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+body {
+  background: $white;
+  color: $black;
+}
+
+.container {
+  @include container($total-columns, $first-break, $second-break, $third-break, $fourth-break, $fifth-break, $sixth-break);
+}
+
+.page {
+  @include container($total-columns, $first-break, $second-break, $third-break, $fourth-break, $fifth-break, $sixth-break);
+}
+
+.wrapper {
+  width: 100%;
+  @include clearfix;
+  overflow: visible;
+}
+
+img {
+  max-width: 100%;
+}

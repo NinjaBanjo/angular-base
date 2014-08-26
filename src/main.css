@@ -1,0 +1,27 @@
+body {
+    background: lightgrey;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 3px;
+    padding: 5px;
+    background: white;
+    color: rgba(0, 0, 0,0.8);
+    cursor: pointer;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+}
+
+ul li ul {
+    display: none;
+}
