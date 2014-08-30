@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute', 'mkToolControllers'])
+var app = angular.module('app', ['ngRoute', 'appControllers'])
   .config([
     '$compileProvider',
     function ($compileProvider) {

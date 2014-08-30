@@ -40,7 +40,7 @@ module.exports = function (grunt) {
     compass: {
       dist: {
         options: {
-          require: ['font_awesome/sass','susy'],
+          require: ['susy','breakpoint'],
           sassDir: 'src/sass',
           cssDir: 'dist/styles',
           fontsDir: '/styles/fonts',
@@ -51,7 +51,7 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: ['src/**/*.*', 'manifest.json'],
+      files: ['src/**/*.*'],
       tasks: ['clean', 'concat', 'copy', 'compass']
     }
   });

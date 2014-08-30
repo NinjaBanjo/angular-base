@@ -1,29 +1,55 @@
-@include at-breakpoint($first-break) /* 6 col @ 480 */
-{
+@include breakpoint(20em) {
+  /* 4 col @ 320 */
 
+  .container {
+    @include container(20em);
+  }
 }
 
-@include at-breakpoint($second-break) /* 8 col @ 640 */
-{
-
-}
-
-@include at-breakpoint($third-break) /* 12  col @ 800 */
-{
-
-}
-
-@include at-breakpoint($fourth-break) /* 12  col @ 960 */
-{
-
-}
-
-@include at-breakpoint($fifth-break) /* 12  col @ 1120 */
-{
-
-}
-
-@include at-breakpoint($sixth-break) /* 12  col @ 1280 */
-{
+@include breakpoint(30em) {
+  /* 6 col @ 480 */
   
+  .container {
+   @include container(30em);
+  }
+}
+
+@include breakpoint(37.5em) {
+  /* 8 col @ 600 */
+
+  .container {
+    @include container(37.5em);
+  }
+}
+
+@include breakpoint(48em) {
+  /* 10 col @ 768px */
+
+  .container {
+    @include container(48em);
+  }
+}
+
+@include breakpoint(56.25em) {
+  /* 12 col @ 900 */
+
+  .container {
+    @include container(56.25em);
+  }
+}
+
+@include breakpoint(68.75em) {
+  /* 12 col @ 1100 */
+
+  .container {
+    @include container(68.75em);
+  }
+}
+
+@include breakpoint(81.25em) {
+  /* 12 col @ 1300 */
+
+  .container {
+    @include container(81.25em);
+  }
 }

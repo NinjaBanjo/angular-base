@@ -10,17 +10,9 @@ body {
 }
 
 .container {
-  @include container($total-columns, $first-break, $second-break, $third-break, $fourth-break, $fifth-break, $sixth-break);
-}
-
-.page {
-  @include container($total-columns, $first-break, $second-break, $third-break, $fourth-break, $fifth-break, $sixth-break);
-}
-
-.wrapper {
+  background: black;
   width: 100%;
-  @include clearfix;
-  overflow: visible;
+  height: 1000px;
 }
 
 img {

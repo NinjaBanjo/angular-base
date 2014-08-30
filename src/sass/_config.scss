@@ -1,22 +1,13 @@
 /* Susy Settigns */
-$total-columns: 4;
-$column-width: 4em;
-$gutter-width: 1em;
-$grid-padding: $gutter-width;
-//1em
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside
+);
 
 /* Responsive Columns */
-$first-break: 30em $total-columns*1.5;
-
-$second-break: 40em $total-columns*2;
-
-$third-break: 50em $total-columns*3;
-
-$fourth-break: 60em $total-columns*4;
-
-$fifth-break: 70em $total-columns*3;
-
-$sixth-break: 80em $total-columns*3;
 
 /* Base Variables */
 $base-font-size: 16px;
@@ -28,7 +19,6 @@ $base-line-height: 6px;
 }
 
 /* Colors */
-
 
 /* Shades */
 $white: #ffffff;
@@ -42,6 +32,5 @@ $black: #000000;
 $font-fallback: Helvetica, Arial, sans-serif;
 
 // Main Stack
-
 
 // Alternative Stack
