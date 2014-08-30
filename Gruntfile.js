@@ -40,11 +40,11 @@ module.exports = function (grunt) {
     compass: {
       dist: {
         options: {
-          require: ['font_awesome/sass'],
+          require: ['font_awesome/sass','susy'],
           sassDir: 'src/sass',
           cssDir: 'dist/styles',
           fontsDir: '/styles/fonts',
-          outputStyle: 'compressed',
+          outputStyle: 'expanded',
           force: true,
           relativeAssets: true
         }
